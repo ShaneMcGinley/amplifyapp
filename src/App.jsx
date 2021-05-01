@@ -7,11 +7,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav>
-        <a href="">HOME</a> |
+          <ul>
+            <li><a href="">Home</a></li>
+          </ul>
         </nav>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
       </header>
+      <section>
+        <h1>Welcome To The Pokedex Website</h1>
+      </section>
     </div>
   );
 }
